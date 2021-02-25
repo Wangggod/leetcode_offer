@@ -16,18 +16,22 @@
 #### 正确修改：
 可以利用Set来建立哈希表，因为Set用于存储不重复的元素，插入效率和删除效率都比较高。
 #### 代码：
-'''
-class Solution {
-    public int findRepeatNumber(int[] nums) {
-        Set<Integer> set = new HashSet<Integer>();
-        int repeat = -1;
-        for (int num : nums) {
-            if (!set.add(num)) {
-                repeat = num;
-                break;
-            }
-        }
-        return repeat;
-    }
+
+```
+
+class Solution {
+    public int findRepeatNumber(int[] nums) {
+        Set<Integer> set = new HashSet<Integer>();
+        int repeat = -1;
+        for (int num : nums) {
+            if (!set.add(num)) {
+                repeat = num;
+                break;
+            }
+        }
+        return repeat;
+    }
 }
-'''
+
+
+```
