@@ -20,6 +20,8 @@
 
 最简单粗暴的方式就是直接按照下文那样，设置为原来的3倍，但可能出现浪费空间的情况。
 #### 解法：
+
+```
 class Solution {
     public String replaceSpace(String s) {
         int len = s.length();
@@ -39,3 +41,5 @@ class Solution {
         return newStr;
     }
 }
+```
+
