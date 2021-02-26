@@ -16,6 +16,7 @@
 #### 思路：
 可以用栈FIFO特性，主要考察栈的操作
 
+```
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -40,3 +41,5 @@ class Solution {
         return printArray;
     }
 }
+```
+
