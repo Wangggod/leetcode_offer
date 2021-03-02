@@ -2,7 +2,8 @@
 #### 思路：可以用二分法
 #### 提示：
 二分法的取中间值建议用减法，防止溢出
-'''
+
+```
 class Solution {
     public int minArray(int[] numbers) {
         int low = 0;
@@ -20,4 +21,4 @@ class Solution {
         return numbers[low];        
     }
 }
-'''
+```
